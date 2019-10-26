@@ -8,3 +8,4 @@ Some ROS tips to use
     * For vim `i` - insert 
               `esc` + `:wq` Save and close 
               
+rostopic pub `rosmsg type`
