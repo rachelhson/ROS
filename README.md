@@ -9,3 +9,37 @@ Some ROS tips to use
               `esc` + `:wq` Save and close 
               
 rostopic pub `rosmsg type`
+
+
+history | grep pub 
+
+`pub` what you are looking for 
+
+exclud grep -v 
+
+history | grep -v 'pub'
+
+## record everything happening in topic 
+rosbag  record / `rostopic name`
+
+replay 
+rosbag play `the file` 
+
+## control terminal window 
+
+rosrun- `&` rosrun
+
+use `bg` / `fg` ( background and forward ground) 
+`jobs` show the what is running on the command 
+
+`screen`
+
+`ctrl+shift+t`
+`ctrl+a` ; cursor goes to the first place on the command 
+
+`env` shows the what variable 
+
+~ = $Home directory 
+
+
+- conneting simulation to real robot ( controller ) 
