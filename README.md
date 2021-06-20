@@ -4,20 +4,15 @@ Some ROS tips to use
    ~/catkin_ws/devel/$ vim ~/.bashrc
    `source /opt/ros/kinetic/setup.bash`
    `source ~/catkin_ws/devel/setup.bash`
-   make sure above two lines in vim 
-    * For vim `i` - insert 
-              `esc` + `:wq` Save and close 
+   make sure add above two lines in vim 
+   * For vim `i` - insert 
+             `esc` + `:wq` Save and close 
               
-rostopic pub `rosmsg type`
-
-
-history | grep pub 
-
-`pub` what you are looking for 
-
-exclud grep -v 
-
-history | grep -v 'pub'
+2. rostopic pub `rosmsg type`
+   `history | grep pub` 
+   `pub` what you are looking for 
+   exclud grep -v 
+   `history | grep -v 'pub'`
 
 ## record everything happening in topic 
 rosbag  record / `rostopic name`
